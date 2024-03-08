@@ -25,6 +25,8 @@ npm install
 npm run start
 ```
 
+Depois abra no seu navelador *[http://localhost:3050/](http://localhost:3050/)*.
+
 ## Telas
 
 A tela `Clientes` alem de possui as funcionalidades de `ativar`, `desativar`, `adicionar`, `editar` e `remover` clientes, tambem é responsavel por atribuir produtos a clientes.
