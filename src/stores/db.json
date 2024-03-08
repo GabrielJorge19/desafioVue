@@ -1,0 +1,281 @@
+{
+  "clientes": [
+    {
+      "id": "0",
+      "nome": "Kurtis Weissnat",
+      "documento": "557.906.050-52",
+      "telefone": "",
+      "email": "Telly.Hoeger@billy.biz",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "1",
+      "nome": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "documento": "041.044.954-76",
+      "telefone": "9892670416",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "documento": "361.534.919-95",
+      "telefone": "419365071",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "documento": "684.165.322-06",
+      "telefone": "679119658",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Patricia Lebsack",
+      "documento": "093.581.811-17",
+      "telefone": "9895454848",
+      "email": "Julianne.OConner@kory.org",
+      "status": true,
+      "produtos": [
+        "1",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "documento": "701.946.245-60",
+      "telefone": "689691454",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "Mrs. Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "documento": "834.966.115-10",
+      "telefone": "479850037",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "7",
+      "nome": "Kurtis Weissnat",
+      "email": "Telly.Hoeger@billy.biz",
+      "documento": "557.906.050-52",
+      "telefone": "",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "Nicholas Runolfsdottir V",
+      "email": "Sherwood@rosamond.me",
+      "documento": "181.287.531-26",
+      "telefone": "819848437",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "9",
+      "nome": "Glenna Reichert",
+      "email": "Chaim_McDermott@dana.io",
+      "documento": "811.967.338-72",
+      "telefone": "819189287",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "10",
+      "nome": "Clementina DuBuque",
+      "email": "Rey.Padberg@karina.biz",
+      "documento": "571.136.590-80",
+      "telefone": "2199159263",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "11",
+      "nome": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "documento": "041.044.954-76",
+      "telefone": "9892670416",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "12",
+      "nome": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "documento": "361.534.919-95",
+      "telefone": "419365071",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "13",
+      "nome": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "documento": "684.165.322-06",
+      "telefone": "679119658",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "14",
+      "nome": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "documento": "093.581.811-17",
+      "telefone": "9895454848",
+      "status": true,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "15",
+      "nome": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "documento": "701.946.245-60",
+      "telefone": "689691454",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "16",
+      "nome": "Mrs. Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "documento": "834.966.115-10",
+      "telefone": "479850037",
+      "status": false,
+      "produtos": [
+        "0",
+        "2"
+      ]
+    }
+  ],
+  "produtos": [
+    {
+      "id": "0",
+      "nome": "Photoshop",
+      "status": true
+    },
+    {
+      "id": "1",
+      "nome": "Excel",
+      "status": false
+    },
+    {
+      "id": "2",
+      "nome": "Microsoft Teams",
+      "status": true
+    },
+    {
+      "id": "3",
+      "nome": "Word",
+      "status": false
+    },
+    {
+      "id": "4",
+      "nome": "OneDrive",
+      "status": false
+    },
+    {
+      "id": "5",
+      "nome": "OneNote",
+      "status": true
+    },
+    {
+      "id": "6",
+      "nome": "Outlook",
+      "status": true
+    },
+    {
+      "id": "7",
+      "nome": "PowerPoint",
+      "status": true
+    },
+    {
+      "id": "8",
+      "nome": "Project",
+      "status": true
+    },
+    {
+      "id": "9",
+      "nome": "SharePoint",
+      "status": true
+    },
+    {
+      "id": "10",
+      "nome": "Copilot",
+      "status": true
+    },
+    {
+      "id": "11",
+      "nome": "Planner",
+      "status": true
+    },
+    {
+      "id": "12",
+      "nome": "Power BI",
+      "status": true
+    },
+    {
+      "id": "13",
+      "nome": "Chat GPT",
+      "status": true
+    }
+  ]
+}

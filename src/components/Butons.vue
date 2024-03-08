@@ -1,11 +1,11 @@
 <script>
-import {defineProps, defineEmits } from 'vue';
+
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { BiTrashFill, MdModeeditoutline } from "oh-vue-icons/icons";
 
 export default {
     name: 'Butons',
-    components: {        
+    components: {
         "v-icon": OhVueIcon,
     }
 }
@@ -24,8 +24,7 @@ addIcons(BiTrashFill, MdModeeditoutline)
 
 <template>
     <div class="lineButtonsContainer">
-        <!-- <button v-on:click.stop="emit('changeStatus')" class="status" :class="{ 'activeClient': status }"> {{ (status) ? "Ativo" : "Inativo" }}</button> -->
-        <button v-on:click.stop="emit('changeStatus')" class="newStatus" :class="{ 'activeClient': status }" alt="algum texto" />
+        <button v-on:click.stop="emit('changeStatus')" class="status" :class="{ 'activeClient': status }" />
         <v-icon v-on:click.stop="emit('edit')" name="md-modeeditoutline" />
         <v-icon v-on:click.stop="emit('delete')" name="bi-trash-fill" />
 
@@ -33,7 +32,8 @@ addIcons(BiTrashFill, MdModeeditoutline)
 </template>
 
 <style scoped>
-.lineButtonsContainer{
+
+.lineButtonsContainer {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -43,11 +43,7 @@ addIcons(BiTrashFill, MdModeeditoutline)
     cursor: pointer;
 }
 
-.lineButtonsContainer *:hover {
-    transform: scale(1.5) translateY(-5px);
-}
-
-.newStatus{
+.status {
     width: 20px;
     height: 20px;
     background-color: red;
@@ -56,38 +52,17 @@ addIcons(BiTrashFill, MdModeeditoutline)
     box-shadow: 0px 0px 3px red;
 }
 
-.activeClient{
+.activeClient {
     background-color: greenyellow;
     box-shadow: 0px 0px 3px greenyellow;
 
 }
 
+@media (min-width: 768px) {
 
-
-
-
-
-
-
-
-
-
-
-
-.status {
-    width: 20%;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-size: 20px;
-    border: none;
-    background-color: #ccc;
+    .lineButtonsContainer *:hover {
+        transform: scale(1.5) translateY(-5px);
+    }
 
 }
-
-.status:hover {
-    box-shadow: 2px 2px 3px #444;
-    transform: scale(.9);
-}
-
-
 </style>

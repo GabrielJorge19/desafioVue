@@ -2,35 +2,28 @@ import { createStore } from 'vuex';
 
 export default createStore({
     state: {
-        clientes: [{
-            id: 0,
-            nome: 'Nome',
-            documento: '12345678910',
-            telefone: '(11) 912345678',
-            email: 'email@gamail.com',
-            status: false,
-            produtos: []
-        }, {
-            id: 1,
-            nome: 'Nome 2',
-            documento: 'documento 2',
-            telefone: 'telefone 2',
-            email: 'email 2',
-            status: false,
-            produtos: [],
-        }],
-
-        produtos: [{
-            id: 0,
-            nome: 'Produto 1',
-            status: false,
-        }]
+        clientes: [],
+        produtos: [],
+        serverUrl: "http://" + window.location.hostname + ":3050/",
     },
     getters: {
     },
     mutations: {
     },
     actions: {
+
+        async load(context) {
+
+
+            let clientes = await (await fetch(context.state.serverUrl + 'clientes')).json();
+            let produtos = await (await fetch(context.state.serverUrl + 'produtos')).json();
+
+            // console.log(clientes, produtos);
+
+            context.state.produtos = produtos;
+            context.state.clientes = clientes;
+        }
+
     },
     modules: {
     },

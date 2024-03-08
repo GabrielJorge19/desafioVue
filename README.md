@@ -1,29 +1,58 @@
-# desafioVue
+# DesafioVue
 
-This template should help get you started developing with Vue 3 in Vite.
+Trata-se de um desafio de programação, cujo objetivo é desenvolver uma aplicação para gerenciar clientes e produtos com a opção de atribuir produtos especificos a clientes especificos. E para isso deve ser utilizado o Framework Vue.js.
 
-## Recommended IDE Setup
+#### Observação
+Todos os dados são mocados e disponibilizados através do servidor `json-server` que extrai os dados do arquivo `./src/stores/db.json`.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Requisitos
 
-## Customize configuration
+* Responsividade `mobile first`.
+* Metodologia e estrutura do framework.
+* Utilização de dependency managers `npm, webpack`.
+* HTML semântico.
+* Legibilidade e manutenibilidade do código.
+* Alcance dos objetivos propostos.
+* Componentização e extensibilidade dos componentes Javascript.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Setup
 
 ```sh
+git clone "https://github.com/GabrielJorge19/desafioVue"
+cd desafioVue
 npm install
+npm run start
 ```
 
-### Compile and Hot-Reload for Development
+## Telas
+
+A tela `Clientes` alem de possui as funcionalidades de `ativar`, `desativar`, `adicionar`, `editar` e `remover` clientes, tambem é responsavel por atribuir produtos a clientes.
+
+A tela `Produtos` possui as funcionalidades de `ativar`, `desativar`, `criar`, `editar` e `remover` produtos.
+
+`Observação:` Não é possivel desativar um produto que está sendo utilizado por um cliente ativo.
+
+## Configuração rede local
+
+Por padrão os servidores de dados e o vite apenas estarão disponivel no computador local, mas seguindo os passos a seguir é possivel disponibilizá-los na rede local.
+
+* Altere o script `"api"` no arquivo package.json com seu ip para ficar da seguinte forma.
 
 ```sh
-npm run dev
+"api": "npm json-server --host [seu ip] --port 3050 ./src/stores/db.json"
 ```
 
-### Compile and Minify for Production
-
+Pronto agora basta rodar o comando na pasta desafioVue.
 ```sh
-npm run build
+    npm run start
 ```
+
+
+## Comandos
+
+* `start` - Faz o build e inicia o servidor api.
+* `dev` - Inicia o servidor api e inicia o servidor de desenvolvimento.
+* `api` - Inicia o servidor api na porta `3050` que tambem serve os arquivos staticos da pasta `./public/` gerado pelo build.
+* `server` - Inicia o servidor de desenvolvimento.
+* `build` - Faz o build.
